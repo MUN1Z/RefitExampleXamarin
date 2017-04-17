@@ -10,76 +10,12 @@
         <StackLayout Padding="20, 20, 20, 20">
 
             <StackLayout Orientation="Horizontal">
-
-                <Label Text="Name: " 
+                <Label Text="{Binding Number}"
                        VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
-
-                <Label Text="{Binding Person.Name}"
-                       VerticalOptions="Center" 
-                       HorizontalOptions="StartAndExpand" />
-
+                       HorizontalOptions="StartAndExpand"
+                       FontSize="80"/>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal">
-
-                <Label Text="Surname: " 
-                       VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
-
-                <Label Text="{Binding Person.Surname}"
-                       VerticalOptions="Center" 
-                       HorizontalOptions="StartAndExpand" />
-
-            </StackLayout>
-
-            <StackLayout Orientation="Horizontal">
-
-                <Label Text="Gender: " 
-                       VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
-
-                <Label Text="{Binding Person.Gender}"
-                       VerticalOptions="Center" 
-                       HorizontalOptions="StartAndExpand" />
-
-            </StackLayout>
-
-            <StackLayout Orientation="Horizontal">
-
-                <Label Text="Region: " 
-                       VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
-
-                <Label Text="{Binding Person.Region}"
-                       VerticalOptions="Center" 
-                       HorizontalOptions="StartAndExpand" />
-
-            </StackLayout>
-
-            <StackLayout Orientation="Horizontal">
-
-                <Label Text="Age: " 
-                       VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
-
-                <Label Text="{Binding Person.Age}"
-                       VerticalOptions="Center" 
-                       HorizontalOptions="StartAndExpand" />
-
-            </StackLayout>
-
-            <StackLayout Orientation="Horizontal">
-
-                <Label Text="Title: " 
-                       VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
-
-                <Label Text="{Binding Person.Title}"
-                       VerticalOptions="Center" 
-                       HorizontalOptions="StartAndExpand" />
-
-            </StackLayout>
 
         </StackLayout>
         

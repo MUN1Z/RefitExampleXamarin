@@ -11,7 +11,7 @@ namespace RefitExample.Service
     {
         public static IRefitService GetService()
         {
-            return RestService.For<IRefitService>("http://uinames.com/api");
+            return RestService.For<IRefitService>("http://80.241.208.215/ingeteam/api");
         }
 
     }

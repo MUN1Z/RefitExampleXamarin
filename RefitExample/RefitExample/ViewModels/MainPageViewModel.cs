@@ -13,12 +13,12 @@ namespace RefitExample.ViewModels
     {
         public string Title { get; set; }
 
-        private Person person { get; set; }
+        private int number { get; set; }
 
-        public Person Person
+        public int Number
         {
-            get { return person; }
-            set { person = value; OnPropertyChanged();}
+            get { return number; }
+            set { number = value; OnPropertyChanged();}
         }
         
         public MainPageViewModel()
@@ -27,15 +27,15 @@ namespace RefitExample.ViewModels
             
             Timer timer = new Timer((e) =>
             {
-                GetPerson();
+                GetNumber();
             }, null, 0, 3000);
 
         }
 
-        public async void GetPerson()
+        public async void GetNumber()
         {
             var service = RefitServiceGenerator.GetService();
-            Person = await service.GetPerson();
+            Number = await service.GetNumber();
         }
     }
 }

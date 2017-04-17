@@ -6,7 +6,7 @@ namespace RefitExample.Service
 {
     public interface IRefitService
     {
-        [Get("/?ext")]
-        Task<Person> GetPerson();
+        [Get("/numero/")]
+        Task<int> GetNumber();
     }
 }

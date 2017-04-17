@@ -15,13 +15,6 @@ namespace RefitExample.Views
             BindingContext = new MainPageViewModel();
 
         }
-
-        public async void GetPerson() {
-
-            var service = RefitServiceGenerator.GetService();
-
-            Person person = await service.GetPerson();
-            
-        }
+        
     }
 }

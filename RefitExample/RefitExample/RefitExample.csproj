@@ -40,7 +40,6 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\BaseModel.cs" />
-    <Compile Include="Models\Person.cs" />
     <Compile Include="Service\IRefitService.cs" />
     <Compile Include="Service\RefitServiceGenerator.cs" />
     <Compile Include="ViewModels\MainPageViewModel.cs" />
