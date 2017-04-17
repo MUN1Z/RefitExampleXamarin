@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="001" android:versionName="0.0.1" package="refitexample.felipemuniz.net">
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="RefitExample.Android" android:icon="@drawable/icon"></application>
+</manifest>
